@@ -1,0 +1,14 @@
+{
+  "DynamoDB": {
+    "TableName": "Notes",
+    "PartitionKey": "UserId",
+    "SortKey": "NoteId",
+    "ReadCapacity": 5,
+    "WriteCapacity": 5,
+    "Sourcenotes": "notes.json",
+    "QueryUserId": "testuser",
+    "PageSize": 10,
+    "QueryNoteId": 1,
+    "NotePrefix": "Updated Note"
+  }
+}
